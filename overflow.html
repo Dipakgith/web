@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow z index</title>
+    <style>
+        .one{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            position: absolute;
+            top: 1;
+            z-index: 2;
+        }
+        .two{
+            height: 50px; ;
+            width: 50px;
+         background-color: yellow;
+         position: absolute;
+        }
+p{
+    height: 250px;
+    width: 250px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+    </style>
+</head>
+<body>
+
+    <!-- overflow -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sapiente exercitationem praesentium quibusdam ea natus ipsum, explicabo ipsa corporis quas ad consequatur aliquam accusamus, suscipit sequi consectetur quo, nihil ab.</p>
+<div class="one"></div>
+<div class="two"></div>
+</body>
+</html>
